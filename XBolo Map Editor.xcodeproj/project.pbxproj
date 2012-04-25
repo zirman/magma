@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* GSXBoloMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* GSXBoloMap.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		4027E7C010ED24F8004C9281 /* mouseEyeDropper.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7AB10ED24F8004C9281 /* mouseEyeDropper.tiff */; };
+		4027E7C110ED24F8004C9281 /* mouseGrab.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7AC10ED24F8004C9281 /* mouseGrab.tiff */; };
+		4027E7C210ED24F8004C9281 /* mouseZoomIn.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7AD10ED24F8004C9281 /* mouseZoomIn.tiff */; };
+		4027E7C310ED24F8004C9281 /* mouseZoomLimit.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7AE10ED24F8004C9281 /* mouseZoomLimit.tiff */; };
+		4027E7C410ED24F8004C9281 /* mouseZoomOut.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7AF10ED24F8004C9281 /* mouseZoomOut.tiff */; };
+		4027E7C710ED24F8004C9281 /* mouseMagicWandAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7B210ED24F8004C9281 /* mouseMagicWandAdd.png */; };
+		4027E7C810ED24F8004C9281 /* mouseMagicWandGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7B310ED24F8004C9281 /* mouseMagicWandGrey.png */; };
+		4027E7C910ED24F8004C9281 /* mouseMagicWandSub.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7B410ED24F8004C9281 /* mouseMagicWandSub.png */; };
+		4027E7CA10ED24F8004C9281 /* mouseMagicWand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7B510ED24F8004C9281 /* mouseMagicWand.png */; };
+		4027E7CE10ED24F8004C9281 /* Pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7B910ED24F8004C9281 /* Pencil.png */; };
+		4027E7CF10ED24F8004C9281 /* crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7BA10ED24F8004C9281 /* crop.png */; };
+		4027E7D010ED24F8004C9281 /* Grab.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7BB10ED24F8004C9281 /* Grab.png */; };
+		4027E7D110ED24F8004C9281 /* rotateRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7BC10ED24F8004C9281 /* rotateRight.png */; };
+		4027E7D210ED24F8004C9281 /* rotateLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E7BD10ED24F8004C9281 /* rotateLeft.png */; };
+		4027E83E10ED319D004C9281 /* Forest.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E83D10ED319D004C9281 /* Forest.png */; };
+		4027E85510ED3B34004C9281 /* Base.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E84910ED3B34004C9281 /* Base.png */; };
+		4027E85610ED3B34004C9281 /* Boat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E84A10ED3B34004C9281 /* Boat.png */; };
+		4027E85710ED3B34004C9281 /* Crater.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E84B10ED3B34004C9281 /* Crater.png */; };
+		4027E85810ED3B34004C9281 /* DamagedWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E84C10ED3B34004C9281 /* DamagedWall.png */; };
+		4027E85910ED3B34004C9281 /* DeepSea.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E84D10ED3B34004C9281 /* DeepSea.png */; };
+		4027E85A10ED3B34004C9281 /* Grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E84E10ED3B34004C9281 /* Grass.png */; };
+		4027E85B10ED3B34004C9281 /* Pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E84F10ED3B34004C9281 /* Pill.png */; };
+		4027E85C10ED3B34004C9281 /* River.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E85010ED3B34004C9281 /* River.png */; };
+		4027E85D10ED3B34004C9281 /* Road.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E85110ED3B34004C9281 /* Road.png */; };
+		4027E85E10ED3B34004C9281 /* Rubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E85210ED3B34004C9281 /* Rubble.png */; };
+		4027E85F10ED3B34004C9281 /* Swamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E85310ED3B34004C9281 /* Swamp.png */; };
+		4027E86010ED3B34004C9281 /* Wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E85410ED3B34004C9281 /* Wall.png */; };
+		4027E86510ED3BFB004C9281 /* MinedGrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E86410ED3BFB004C9281 /* MinedGrass.png */; };
+		4027E86E10ED4483004C9281 /* Selection.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E86D10ED4483004C9281 /* Selection.png */; };
+		4027E89410ED47A6004C9281 /* Ellipse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E88F10ED47A6004C9281 /* Ellipse.png */; };
+		4027E89510ED47A6004C9281 /* Filled Ellipse.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E89010ED47A6004C9281 /* Filled Ellipse.png */; };
+		4027E89610ED47A6004C9281 /* Filled Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E89110ED47A6004C9281 /* Filled Rectangle.png */; };
+		4027E89710ED47A6004C9281 /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E89210ED47A6004C9281 /* Line.png */; };
+		4027E89810ED47A6004C9281 /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E89310ED47A6004C9281 /* Rectangle.png */; };
+		4027E92410ED61EC004C9281 /* GSToolsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4027E92310ED61EC004C9281 /* GSToolsController.m */; };
+		4027E96410ED659B004C9281 /* GSPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4027E96310ED659B004C9281 /* GSPanel.m */; };
+		4027E9EB10ED79B8004C9281 /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027E9EA10ED79B8004C9281 /* Start.png */; };
+		4027EB1B10EFA928004C9281 /* GSPaletteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4027EB1A10EFA928004C9281 /* GSPaletteController.m */; };
+		4027EBD410EFC6F4004C9281 /* Fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027EBD310EFC6F4004C9281 /* Fill.png */; };
+		4027EBF210EFD399004C9281 /* Filled Polygon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4027EBF110EFD399004C9281 /* Filled Polygon.png */; };
+		4027EC4F10EFDA6B004C9281 /* GSTileRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4027EC4E10EFDA6B004C9281 /* GSTileRect.m */; };
+		4073338110F10BBE00A018A1 /* XBoloMap.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4073338010F10BBE00A018A1 /* XBoloMap.icns */; };
+		407339D010F4E20700A018A1 /* MinedCrater.png in Resources */ = {isa = PBXBuildFile; fileRef = 407339CB10F4E20700A018A1 /* MinedCrater.png */; };
+		407339D110F4E20700A018A1 /* MinedForest.png in Resources */ = {isa = PBXBuildFile; fileRef = 407339CC10F4E20700A018A1 /* MinedForest.png */; };
+		407339D210F4E20700A018A1 /* MinedRoad.png in Resources */ = {isa = PBXBuildFile; fileRef = 407339CD10F4E20700A018A1 /* MinedRoad.png */; };
+		407339D310F4E20700A018A1 /* MinedRubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 407339CE10F4E20700A018A1 /* MinedRubble.png */; };
+		407339D410F4E20700A018A1 /* MinedSwamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 407339CF10F4E20700A018A1 /* MinedSwamp.png */; };
+		4088DBCE110291480012511A /* XBoloMapEditor.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4088DBCD110291480012511A /* XBoloMapEditor.icns */; };
+		4088DBFA11029A6D0012511A /* Mine.png in Resources */ = {isa = PBXBuildFile; fileRef = 4088DBF911029A6D0012511A /* Mine.png */; };
+		40BB0DA010EAE9D00073BBFE /* GSXBoloMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB0D9F10EAE9D00073BBFE /* GSXBoloMapView.m */; };
+		40BB0DBE10EAEBED0073BBFE /* bmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BB0DBC10EAEBED0073BBFE /* bmap.c */; };
+		40BB0DCA10EAEC880073BBFE /* tiles.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BB0DC810EAEC880073BBFE /* tiles.c */; };
+		40BB0DDC10EAEF0A0073BBFE /* images.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BB0DDA10EAEF0A0073BBFE /* images.c */; };
+		40BB0DE110EAEF420073BBFE /* errchk.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BB0DDF10EAEF420073BBFE /* errchk.c */; };
+		40BB0DEE10EAEF7B0073BBFE /* rect.c in Sources */ = {isa = PBXBuildFile; fileRef = 40BB0DEC10EAEF7B0073BBFE /* rect.c */; };
+		40BB125210EC5D4B0073BBFE /* Sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BB125010EC5D4B0073BBFE /* Sprites.png */; };
+		40BB125310EC5D4B0073BBFE /* Tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BB125110EC5D4B0073BBFE /* Tiles.png */; };
+		40BFB69E11170FC0008BFE29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BFB69D11170FC0008BFE29 /* Cocoa.framework */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* GSXBoloMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* GSXBoloMap.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4047BDE4110CAB6500D289EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4047BDE0110CAB6500D289EF /* XBolo Quick Look Plug-in.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D576316048677EA00EA77CD;
+			remoteInfo = "XBolo Quick Look Plug-in";
+		};
+		4047BDE6110CAB7900D289EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4047BDE0110CAB6500D289EF /* XBolo Quick Look Plug-in.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D57630D048677EA00EA77CD;
+			remoteInfo = "XBolo Quick Look Plug-in";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4047BDEC110CABD800D289EF /* Copy Quick Look Plugin */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/QuickLook;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			name = "Copy Quick Look Plugin";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/GSXBoloMap.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* XBolo_Map_Editor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBolo_Map_Editor_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* GSXBoloMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSXBoloMap.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* GSXBoloMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSXBoloMap.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4027E7AB10ED24F8004C9281 /* mouseEyeDropper.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = mouseEyeDropper.tiff; sourceTree = "<group>"; };
+		4027E7AC10ED24F8004C9281 /* mouseGrab.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = mouseGrab.tiff; sourceTree = "<group>"; };
+		4027E7AD10ED24F8004C9281 /* mouseZoomIn.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = mouseZoomIn.tiff; sourceTree = "<group>"; };
+		4027E7AE10ED24F8004C9281 /* mouseZoomLimit.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = mouseZoomLimit.tiff; sourceTree = "<group>"; };
+		4027E7AF10ED24F8004C9281 /* mouseZoomOut.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = mouseZoomOut.tiff; sourceTree = "<group>"; };
+		4027E7B210ED24F8004C9281 /* mouseMagicWandAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouseMagicWandAdd.png; sourceTree = "<group>"; };
+		4027E7B310ED24F8004C9281 /* mouseMagicWandGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouseMagicWandGrey.png; sourceTree = "<group>"; };
+		4027E7B410ED24F8004C9281 /* mouseMagicWandSub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouseMagicWandSub.png; sourceTree = "<group>"; };
+		4027E7B510ED24F8004C9281 /* mouseMagicWand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouseMagicWand.png; sourceTree = "<group>"; };
+		4027E7B910ED24F8004C9281 /* Pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pencil.png; sourceTree = "<group>"; };
+		4027E7BA10ED24F8004C9281 /* crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crop.png; sourceTree = "<group>"; };
+		4027E7BB10ED24F8004C9281 /* Grab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grab.png; sourceTree = "<group>"; };
+		4027E7BC10ED24F8004C9281 /* rotateRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotateRight.png; sourceTree = "<group>"; };
+		4027E7BD10ED24F8004C9281 /* rotateLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotateLeft.png; sourceTree = "<group>"; };
+		4027E83D10ED319D004C9281 /* Forest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Forest.png; sourceTree = "<group>"; };
+		4027E84910ED3B34004C9281 /* Base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Base.png; sourceTree = "<group>"; };
+		4027E84A10ED3B34004C9281 /* Boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boat.png; sourceTree = "<group>"; };
+		4027E84B10ED3B34004C9281 /* Crater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Crater.png; sourceTree = "<group>"; };
+		4027E84C10ED3B34004C9281 /* DamagedWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DamagedWall.png; sourceTree = "<group>"; };
+		4027E84D10ED3B34004C9281 /* DeepSea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeepSea.png; sourceTree = "<group>"; };
+		4027E84E10ED3B34004C9281 /* Grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grass.png; sourceTree = "<group>"; };
+		4027E84F10ED3B34004C9281 /* Pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pill.png; sourceTree = "<group>"; };
+		4027E85010ED3B34004C9281 /* River.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = River.png; sourceTree = "<group>"; };
+		4027E85110ED3B34004C9281 /* Road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Road.png; sourceTree = "<group>"; };
+		4027E85210ED3B34004C9281 /* Rubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rubble.png; sourceTree = "<group>"; };
+		4027E85310ED3B34004C9281 /* Swamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swamp.png; sourceTree = "<group>"; };
+		4027E85410ED3B34004C9281 /* Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wall.png; sourceTree = "<group>"; };
+		4027E86410ED3BFB004C9281 /* MinedGrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinedGrass.png; sourceTree = "<group>"; };
+		4027E86D10ED4483004C9281 /* Selection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Selection.png; sourceTree = "<group>"; };
+		4027E88F10ED47A6004C9281 /* Ellipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ellipse.png; sourceTree = "<group>"; };
+		4027E89010ED47A6004C9281 /* Filled Ellipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Filled Ellipse.png"; sourceTree = "<group>"; };
+		4027E89110ED47A6004C9281 /* Filled Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Filled Rectangle.png"; sourceTree = "<group>"; };
+		4027E89210ED47A6004C9281 /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		4027E89310ED47A6004C9281 /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
+		4027E92210ED61EC004C9281 /* GSToolsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSToolsController.h; sourceTree = "<group>"; };
+		4027E92310ED61EC004C9281 /* GSToolsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSToolsController.m; sourceTree = "<group>"; };
+		4027E96210ED659B004C9281 /* GSPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSPanel.h; sourceTree = "<group>"; };
+		4027E96310ED659B004C9281 /* GSPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSPanel.m; sourceTree = "<group>"; };
+		4027E9EA10ED79B8004C9281 /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
+		4027EB1910EFA928004C9281 /* GSPaletteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSPaletteController.h; sourceTree = "<group>"; };
+		4027EB1A10EFA928004C9281 /* GSPaletteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSPaletteController.m; sourceTree = "<group>"; };
+		4027EBD310EFC6F4004C9281 /* Fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fill.png; sourceTree = "<group>"; };
+		4027EBF110EFD399004C9281 /* Filled Polygon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Filled Polygon.png"; sourceTree = "<group>"; };
+		4027EC4D10EFDA6B004C9281 /* GSTileRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTileRect.h; sourceTree = "<group>"; };
+		4027EC4E10EFDA6B004C9281 /* GSTileRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTileRect.m; sourceTree = "<group>"; };
+		4047BDE0110CAB6500D289EF /* XBolo Quick Look Plug-in.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "XBolo Quick Look Plug-in.xcodeproj"; path = "../XBolo/XBolo Quick Look Plug-in/XBolo Quick Look Plug-in.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		4073338010F10BBE00A018A1 /* XBoloMap.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = XBoloMap.icns; sourceTree = "<group>"; };
+		407339CB10F4E20700A018A1 /* MinedCrater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinedCrater.png; sourceTree = "<group>"; };
+		407339CC10F4E20700A018A1 /* MinedForest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinedForest.png; sourceTree = "<group>"; };
+		407339CD10F4E20700A018A1 /* MinedRoad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinedRoad.png; sourceTree = "<group>"; };
+		407339CE10F4E20700A018A1 /* MinedRubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinedRubble.png; sourceTree = "<group>"; };
+		407339CF10F4E20700A018A1 /* MinedSwamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinedSwamp.png; sourceTree = "<group>"; };
+		4088DBCD110291480012511A /* XBoloMapEditor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = XBoloMapEditor.icns; sourceTree = "<group>"; };
+		4088DBF911029A6D0012511A /* Mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mine.png; sourceTree = "<group>"; };
+		40BB0D9E10EAE9D00073BBFE /* GSXBoloMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSXBoloMapView.h; sourceTree = "<group>"; };
+		40BB0D9F10EAE9D00073BBFE /* GSXBoloMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSXBoloMapView.m; sourceTree = "<group>"; };
+		40BB0DBC10EAEBED0073BBFE /* bmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bmap.c; sourceTree = "<group>"; };
+		40BB0DBD10EAEBED0073BBFE /* bmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmap.h; sourceTree = "<group>"; };
+		40BB0DC810EAEC880073BBFE /* tiles.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tiles.c; sourceTree = "<group>"; };
+		40BB0DC910EAEC880073BBFE /* tiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiles.h; sourceTree = "<group>"; };
+		40BB0DDA10EAEF0A0073BBFE /* images.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = images.c; sourceTree = "<group>"; };
+		40BB0DDB10EAEF0A0073BBFE /* images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = images.h; sourceTree = "<group>"; };
+		40BB0DDF10EAEF420073BBFE /* errchk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = errchk.c; sourceTree = "<group>"; };
+		40BB0DE010EAEF420073BBFE /* errchk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errchk.h; sourceTree = "<group>"; };
+		40BB0DEC10EAEF7B0073BBFE /* rect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rect.c; sourceTree = "<group>"; };
+		40BB0DED10EAEF7B0073BBFE /* rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rect.h; sourceTree = "<group>"; };
+		40BB125010EC5D4B0073BBFE /* Sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sprites.png; sourceTree = "<group>"; };
+		40BB125110EC5D4B0073BBFE /* Tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiles.png; sourceTree = "<group>"; };
+		40BFB69D11170FC0008BFE29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8D15AC360486D014006FF6A4 /* XBolo_Map_Editor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XBolo_Map_Editor-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* XBolo Map Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XBolo Map Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BFB69E11170FC0008BFE29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* XBolo Map Editor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* XBolo Map Editor */ = {
+			isa = PBXGroup;
+			children = (
+				4047BDE0110CAB6500D289EF /* XBolo Quick Look Plug-in.xcodeproj */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = "XBolo Map Editor";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40BB0D7510EAE8820073BBFE /* Model */,
+				40BB0D7610EAE8890073BBFE /* View */,
+				4027E92510ED61F5004C9281 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				40BB0DBD10EAEBED0073BBFE /* bmap.h */,
+				40BB0DBC10EAEBED0073BBFE /* bmap.c */,
+				40BB0DE010EAEF420073BBFE /* errchk.h */,
+				40BB0DDF10EAEF420073BBFE /* errchk.c */,
+				40BB0DDB10EAEF0A0073BBFE /* images.h */,
+				40BB0DDA10EAEF0A0073BBFE /* images.c */,
+				40BB0DED10EAEF7B0073BBFE /* rect.h */,
+				40BB0DEC10EAEF7B0073BBFE /* rect.c */,
+				40BB0DC910EAEC880073BBFE /* tiles.h */,
+				40BB0DC810EAEC880073BBFE /* tiles.c */,
+				2564AD2C0F5327BB00F57823 /* XBolo_Map_Editor_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4088DBCD110291480012511A /* XBoloMapEditor.icns */,
+				4073338010F10BBE00A018A1 /* XBoloMap.icns */,
+				4027E7DF10ED2525004C9281 /* Images */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* XBolo_Map_Editor-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* GSXBoloMap.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40BFB69D11170FC0008BFE29 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4027E7DF10ED2525004C9281 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4027E86A10ED3D80004C9281 /* UI */,
+				4027E7BA10ED24F8004C9281 /* crop.png */,
+				4027E7BC10ED24F8004C9281 /* rotateRight.png */,
+				4027E7BD10ED24F8004C9281 /* rotateLeft.png */,
+				4027E7AB10ED24F8004C9281 /* mouseEyeDropper.tiff */,
+				4027E7AC10ED24F8004C9281 /* mouseGrab.tiff */,
+				4027E7AD10ED24F8004C9281 /* mouseZoomIn.tiff */,
+				4027E7AE10ED24F8004C9281 /* mouseZoomLimit.tiff */,
+				4027E7AF10ED24F8004C9281 /* mouseZoomOut.tiff */,
+				4027E7B210ED24F8004C9281 /* mouseMagicWandAdd.png */,
+				4027E7B310ED24F8004C9281 /* mouseMagicWandGrey.png */,
+				4027E7B410ED24F8004C9281 /* mouseMagicWandSub.png */,
+				4027E7B510ED24F8004C9281 /* mouseMagicWand.png */,
+				40BB125010EC5D4B0073BBFE /* Sprites.png */,
+				40BB125110EC5D4B0073BBFE /* Tiles.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4027E86A10ED3D80004C9281 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4027EBDF10EFD31A004C9281 /* Palette */,
+				4027EBE010EFD336004C9281 /* Tools */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		4027E92510ED61F5004C9281 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4027E92210ED61EC004C9281 /* GSToolsController.h */,
+				4027E92310ED61EC004C9281 /* GSToolsController.m */,
+				4027EB1910EFA928004C9281 /* GSPaletteController.h */,
+				4027EB1A10EFA928004C9281 /* GSPaletteController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4027EBDF10EFD31A004C9281 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				4027E85410ED3B34004C9281 /* Wall.png */,
+				4027E85010ED3B34004C9281 /* River.png */,
+				4027E85310ED3B34004C9281 /* Swamp.png */,
+				4027E84B10ED3B34004C9281 /* Crater.png */,
+				4027E85110ED3B34004C9281 /* Road.png */,
+				4027E83D10ED319D004C9281 /* Forest.png */,
+				4027E85210ED3B34004C9281 /* Rubble.png */,
+				4027E84E10ED3B34004C9281 /* Grass.png */,
+				4027E84C10ED3B34004C9281 /* DamagedWall.png */,
+				4027E84A10ED3B34004C9281 /* Boat.png */,
+				407339CF10F4E20700A018A1 /* MinedSwamp.png */,
+				407339CB10F4E20700A018A1 /* MinedCrater.png */,
+				407339CD10F4E20700A018A1 /* MinedRoad.png */,
+				407339CC10F4E20700A018A1 /* MinedForest.png */,
+				407339CE10F4E20700A018A1 /* MinedRubble.png */,
+				4027E86410ED3BFB004C9281 /* MinedGrass.png */,
+				4027E84D10ED3B34004C9281 /* DeepSea.png */,
+			);
+			name = Palette;
+			sourceTree = "<group>";
+		};
+		4027EBE010EFD336004C9281 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4088DBF911029A6D0012511A /* Mine.png */,
+				4027E7B910ED24F8004C9281 /* Pencil.png */,
+				4027E89010ED47A6004C9281 /* Filled Ellipse.png */,
+				4027E89110ED47A6004C9281 /* Filled Rectangle.png */,
+				4027EBF110EFD399004C9281 /* Filled Polygon.png */,
+				4027E88F10ED47A6004C9281 /* Ellipse.png */,
+				4027E89310ED47A6004C9281 /* Rectangle.png */,
+				4027E89210ED47A6004C9281 /* Line.png */,
+				4027EBD310EFC6F4004C9281 /* Fill.png */,
+				4027E86D10ED4483004C9281 /* Selection.png */,
+				4027E7BB10ED24F8004C9281 /* Grab.png */,
+				4027E84F10ED3B34004C9281 /* Pill.png */,
+				4027E84910ED3B34004C9281 /* Base.png */,
+				4027E9EA10ED79B8004C9281 /* Start.png */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		4047BDE1110CAB6500D289EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4047BDE5110CAB6500D289EF /* XBolo Quick Look Plug-in.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BB0D7510EAE8820073BBFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* GSXBoloMap.h */,
+				2A37F4ACFDCFA73011CA2CEA /* GSXBoloMap.m */,
+				4027EC4D10EFDA6B004C9281 /* GSTileRect.h */,
+				4027EC4E10EFDA6B004C9281 /* GSTileRect.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		40BB0D7610EAE8890073BBFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40BB0D9E10EAE9D00073BBFE /* GSXBoloMapView.h */,
+				40BB0D9F10EAE9D00073BBFE /* GSXBoloMapView.m */,
+				4027E96210ED659B004C9281 /* GSPanel.h */,
+				4027E96310ED659B004C9281 /* GSPanel.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* XBolo Map Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "XBolo Map Editor" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				4047BDEC110CABD800D289EF /* Copy Quick Look Plugin */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4047BDE7110CAB7900D289EF /* PBXTargetDependency */,
+			);
+			name = "XBolo Map Editor";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "XBolo Map Editor";
+			productReference = 8D15AC370486D014006FF6A4 /* XBolo Map Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Robert Chrzanowski";
+			};
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "XBolo Map Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* XBolo Map Editor */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4047BDE1110CAB6500D289EF /* Products */;
+					ProjectRef = 4047BDE0110CAB6500D289EF /* XBolo Quick Look Plug-in.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* XBolo Map Editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4047BDE5110CAB6500D289EF /* XBolo Quick Look Plug-in.qlgenerator */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "XBolo Quick Look Plug-in.qlgenerator";
+			remoteRef = 4047BDE4110CAB6500D289EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* GSXBoloMap.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				40BB125210EC5D4B0073BBFE /* Sprites.png in Resources */,
+				40BB125310EC5D4B0073BBFE /* Tiles.png in Resources */,
+				4027E7C010ED24F8004C9281 /* mouseEyeDropper.tiff in Resources */,
+				4027E7C110ED24F8004C9281 /* mouseGrab.tiff in Resources */,
+				4027E7C210ED24F8004C9281 /* mouseZoomIn.tiff in Resources */,
+				4027E7C310ED24F8004C9281 /* mouseZoomLimit.tiff in Resources */,
+				4027E7C410ED24F8004C9281 /* mouseZoomOut.tiff in Resources */,
+				4027E7C710ED24F8004C9281 /* mouseMagicWandAdd.png in Resources */,
+				4027E7C810ED24F8004C9281 /* mouseMagicWandGrey.png in Resources */,
+				4027E7C910ED24F8004C9281 /* mouseMagicWandSub.png in Resources */,
+				4027E7CA10ED24F8004C9281 /* mouseMagicWand.png in Resources */,
+				4027E7CE10ED24F8004C9281 /* Pencil.png in Resources */,
+				4027E7CF10ED24F8004C9281 /* crop.png in Resources */,
+				4027E7D010ED24F8004C9281 /* Grab.png in Resources */,
+				4027E7D110ED24F8004C9281 /* rotateRight.png in Resources */,
+				4027E7D210ED24F8004C9281 /* rotateLeft.png in Resources */,
+				4027E83E10ED319D004C9281 /* Forest.png in Resources */,
+				4027E85510ED3B34004C9281 /* Base.png in Resources */,
+				4027E85610ED3B34004C9281 /* Boat.png in Resources */,
+				4027E85710ED3B34004C9281 /* Crater.png in Resources */,
+				4027E85810ED3B34004C9281 /* DamagedWall.png in Resources */,
+				4027E85910ED3B34004C9281 /* DeepSea.png in Resources */,
+				4027E85A10ED3B34004C9281 /* Grass.png in Resources */,
+				4027E85B10ED3B34004C9281 /* Pill.png in Resources */,
+				4027E85C10ED3B34004C9281 /* River.png in Resources */,
+				4027E85D10ED3B34004C9281 /* Road.png in Resources */,
+				4027E85E10ED3B34004C9281 /* Rubble.png in Resources */,
+				4027E85F10ED3B34004C9281 /* Swamp.png in Resources */,
+				4027E86010ED3B34004C9281 /* Wall.png in Resources */,
+				4027E86510ED3BFB004C9281 /* MinedGrass.png in Resources */,
+				4027E86E10ED4483004C9281 /* Selection.png in Resources */,
+				4027E89410ED47A6004C9281 /* Ellipse.png in Resources */,
+				4027E89510ED47A6004C9281 /* Filled Ellipse.png in Resources */,
+				4027E89610ED47A6004C9281 /* Filled Rectangle.png in Resources */,
+				4027E89710ED47A6004C9281 /* Line.png in Resources */,
+				4027E89810ED47A6004C9281 /* Rectangle.png in Resources */,
+				4027E9EB10ED79B8004C9281 /* Start.png in Resources */,
+				4027EBD410EFC6F4004C9281 /* Fill.png in Resources */,
+				4027EBF210EFD399004C9281 /* Filled Polygon.png in Resources */,
+				4073338110F10BBE00A018A1 /* XBoloMap.icns in Resources */,
+				407339D010F4E20700A018A1 /* MinedCrater.png in Resources */,
+				407339D110F4E20700A018A1 /* MinedForest.png in Resources */,
+				407339D210F4E20700A018A1 /* MinedRoad.png in Resources */,
+				407339D310F4E20700A018A1 /* MinedRubble.png in Resources */,
+				407339D410F4E20700A018A1 /* MinedSwamp.png in Resources */,
+				4088DBCE110291480012511A /* XBoloMapEditor.icns in Resources */,
+				4088DBFA11029A6D0012511A /* Mine.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* GSXBoloMap.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				40BB0DA010EAE9D00073BBFE /* GSXBoloMapView.m in Sources */,
+				40BB0DBE10EAEBED0073BBFE /* bmap.c in Sources */,
+				40BB0DCA10EAEC880073BBFE /* tiles.c in Sources */,
+				40BB0DDC10EAEF0A0073BBFE /* images.c in Sources */,
+				40BB0DE110EAEF420073BBFE /* errchk.c in Sources */,
+				40BB0DEE10EAEF7B0073BBFE /* rect.c in Sources */,
+				4027E92410ED61EC004C9281 /* GSToolsController.m in Sources */,
+				4027E96410ED659B004C9281 /* GSPanel.m in Sources */,
+				4027EB1B10EFA928004C9281 /* GSPaletteController.m in Sources */,
+				4027EC4F10EFDA6B004C9281 /* GSTileRect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4047BDE7110CAB7900D289EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XBolo Quick Look Plug-in";
+			targetProxy = 4047BDE6110CAB7900D289EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* GSXBoloMap.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = GSXBoloMap.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XBolo_Map_Editor_Prefix.pch;
+				INFOPLIST_FILE = "XBolo_Map_Editor-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "XBolo Map Editor";
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XBolo_Map_Editor_Prefix.pch;
+				INFOPLIST_FILE = "XBolo_Map_Editor-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "XBolo Map Editor";
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "XBolo Map Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "XBolo Map Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
